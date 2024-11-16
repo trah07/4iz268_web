@@ -6,17 +6,17 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
   </head>
   <body>
     <nav id="desktop-nav">
       <div class="logo">Hoang Anh Tran</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#artworks">Artworks</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -30,15 +30,15 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#artworks" onclick="toggleMenu()">Artworks</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
-    <section id="home">
+    <section id="profile">
       <div class="section__pic-container">
         <img
           src="./assets/profile-pic.png"
@@ -213,7 +213,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Adobe <br>Photoshop</br></h3>
+                  <h3>Adobe<br />Photoshop</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -224,7 +224,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Adobe <br>Illustrator</br></h3>
+                  <h3>Adobe<br />Illustrator</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -235,7 +235,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Adobe <br>Lightroom</br></h3>
+                  <h3>Adobe<br />Lightroom</h3>
                   <p>Fundamentals</p>
                 </div>
               </article>
@@ -355,6 +355,92 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
+        onclick="location.href='./#artworks'"
+      />
+    </section>
+    <section id="artworks">
+      <p class="section__text__p1">Check Out My</p>
+      <h1 class="title">Artworks</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/art-1.png"
+                alt="Artwork 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Artwork One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/art-1.png')"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/art-2.png"
+                alt="Artwork 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Artwork Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/art-2.png')"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/art-3.png"
+                alt="Artwork 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Artwork Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/art-3.png')"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/art-4.png"
+                alt="Artwork 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Artwork Four</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/art-4.png')"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
         onclick="location.href='./#contact'"
       />
     </section>
@@ -388,10 +474,10 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#artworks">Artworks</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
