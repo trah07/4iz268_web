@@ -345,6 +345,24 @@ section {
   justify-content: space-around;
 }
 
+.bullet-list {
+  list-style-image: url("./assets/checkmark.png");
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bullet-list > li {
+  width: fit-content;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.bullet-list > li > h3 {
+  font-size: 1.5rem;
+}
+
 article {
   display: flex;
   width: 15rem;
