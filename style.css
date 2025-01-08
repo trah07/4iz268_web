@@ -162,10 +162,6 @@ section {
   min-height: fit-content;
 }
 
-.section-container {
-  display: flex;
-}
-
 /* PROFILE SECTION */
 
 #profile {
@@ -175,7 +171,7 @@ section {
   height: 90vh;
 }
 
-.section__pic-container {
+.profile-picture {
   display: flex;
   height: 400px;
   width: 400px;
@@ -293,6 +289,16 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  height: 500px;
+  width: 155px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-container {
+  gap: 4rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .arrow {
@@ -309,17 +315,6 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(183, 183, 183);
   text-align: center;
-}
-
-.section-container {
-  gap: 4rem;
-  height: 80%;
-}
-
-.section__pic-container {
-  height: 500px;
-  width: 400px;
-  margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */
