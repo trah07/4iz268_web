@@ -1,4 +1,13 @@
 @media print {
-  // Hide elements that should not be printed (e.g. navigation, buttons)
-  // Test print preview in browser (emulate media print)
+  .arrow {
+    display: none;
+  }
+
+  button {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
 }
